@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.img-section{
+    width: 60%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+.img-section button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(236, 94, 117);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.form-section{
+    width: 40%;
+    background-color: black;
+    color: white;
+}
+.img-section img{
+    width: 600px;
+   
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-section img{
+    width: 350px;
+}
+.form-section input{
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.form-section label{
+    font-size: 28px;
+}
+.form-section button{
+    width: 60%;
+    height: 40px;
+    background-color: rgb(31, 158, 200);
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.form-section a{
+    font-size: 20px;
+    color: aqua;
+    /* text-decoration: none; */
+    margin-top: 10px;
+}
+.sec-btn{
+    width: 40%;
+}
+.sec-btn button{
+    background-color: gray;
+    width: 320px;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-left: -40px;
+}
+p{
+    margin-top: 20px;
+    text-align: center;
+}
